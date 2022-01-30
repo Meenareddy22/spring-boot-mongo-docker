@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: dockerhandson/spring-boot-mongo
+        image: singasani22/spring-boot-mongo:${BUILB_NUMBER}
         ports:
         - containerPort: 8080
         env:
